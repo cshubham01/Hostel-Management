@@ -18,7 +18,7 @@ public class StudentTest {
 		h	= new Hostel();
 		
 		BufferedWriter out = new BufferedWriter(new FileWriter("hostel.txt",true));
-//		assertEquals(false,h.verifyName("test rNo"));
+        // assertEquals(false,h.verifyName("test rNo"));
 		
 			try{
 				out.write("tekjhgfdsst rNo");
@@ -37,7 +37,7 @@ public class StudentTest {
 		
 		
 		
-//		fail("Not yet implemented");
+        // fail("Not yet implemented");
 	}
 	@SuppressWarnings("static-access")
 	@Test
